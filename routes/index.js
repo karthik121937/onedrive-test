@@ -1,3 +1,5 @@
+//https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=971cb1f2-c88f-444f-9e87-ac1ae02f4791&scope=files.readwrite offline_access&response_type=code&redirect_uri=https://e0055395.ngrok.io/gettoken
+
 var express = require('express');
 var router = express.Router();
 // var upload = require('./test');
