@@ -1,4 +1,4 @@
-//https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=971cb1f2-c88f-444f-9e87-ac1ae02f4791&scope=files.readwrite offline_access&response_type=code&redirect_uri=https://cd041caf.ngrok.io/gettoken
+//https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=971cb1f2-c88f-444f-9e87-ac1ae02f4791&scope=files.readwrite offline_access&response_type=code&redirect_uri=https://086a88de.ngrok.io/gettoken
 
 var express = require('express');
 var router = express.Router();
@@ -67,7 +67,7 @@ router.get('/gettoken', function (req, res, next) {
   var clientId = "971cb1f2-c88f-444f-9e87-ac1ae02f4791";
   var client_sec = "iviPMKK838~_*njaaZFP43$"
   var scope = "files.readwrite offline_access";
-  var red_url = "https://cd041caf.ngrok.io/gettoken";
+  var red_url = "https://086a88de.ngrok.io/gettoken";
   var code = req.query.code;
 
   var bb = "client_id=" + clientId + "&redirect_uri=" + red_url + "&client_secret=" + client_sec + "&code=" + code + "&grant_type=authorization_code"

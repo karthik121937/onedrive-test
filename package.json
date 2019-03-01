@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@chilkat/ck-node11-linux64": "^9.50.76",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
